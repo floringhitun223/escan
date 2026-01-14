@@ -49,7 +49,8 @@ Lucrăm intens pentru a lansa versiunea completă pe Google Play și App Store. 
 
 ---
 ## ⚙️ Descarcă aplicația ready to use:
-[Descarcă]([https://github.com/username/e-scan/issues](https://github.com/floringhitun223/escan/tree/main/android-app)).
+[Descarcă aplicația demo](https://github.com/floringhitun223/escan/tree/main/android-app)
+
 ## ⚙️ Ghid de Instalare (Dezvoltare & Testare)
 
 Dacă vrei să testezi versiunea demo pe dispozitivul tău:
