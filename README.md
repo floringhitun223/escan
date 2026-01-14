@@ -5,8 +5,8 @@
 <img src="https://github.com/floringhitun223/escan/blob/main/Media/Captur%C4%83%20de%20ecran%202026-01-14%20205003.png?raw=true" width="250" alt="Settings"> |
 > **Transformă-ți telefonul într-un aliat pentru sănătate. Scanează, analizează și alege conștient.**
 
-[![Status: DEMO](https://img.shields.io/badge/status-DEMO-orange?style=for-the-badge)](https://your-download-link.com)
-[![Version](https://img.shields.io/badge/version-0.5.2--beta-blue?style=for-the-badge)](https://github.com/username/e-scan)
+[![Status: DEMO](https://img.shields.io/badge/status-DEMO-orange?style=for-the-badge)]([Descarcă]([https://github.com/username/e-scan/issues](https://github.com/floringhitun223/escan/tree/main/android-app)).)
+[![Version](https://img.shields.io/badge/version-0.5.2--beta-blue?style=for-the-badge)](https://github.com//floringhitun223/escan)
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Cordova-orange?style=for-the-badge)](https://cordova.apache.org/)
 > **Imediat ce aplicația va fi publicată în versiunea FULL pe Play Store, va fi disponibil și codul sursă a acestuia. Creearea oricărui fork al aplicației este permisă, dar nu mai reprezintă răspunderea mea.**
@@ -48,7 +48,8 @@ Lucrăm intens pentru a lansa versiunea completă pe Google Play și App Store. 
 - [ ] **Alerte Personalizate:** Notificări automate dacă un produs conține alergeni setați de tine (ex: gluten, lactoză).
 
 ---
-## ⚙️ Descarcă aplicația ready to use: [Descarcă]([https://github.com/username/e-scan/issues](https://github.com/floringhitun223/escan/tree/main/android-app)).
+## ⚙️ Descarcă aplicația ready to use:
+[Descarcă]([https://github.com/username/e-scan/issues](https://github.com/floringhitun223/escan/tree/main/android-app)).
 ## ⚙️ Ghid de Instalare (Dezvoltare & Testare)
 
 Dacă vrei să testezi versiunea demo pe dispozitivul tău:
@@ -60,7 +61,7 @@ Dacă vrei să testezi versiunea demo pe dispozitivul tău:
 ### 2. Configurare Rapidă
 ```bash
 # Clonează proiectul
-git clone [https://github.com/username/e-scan.git](https://github.com/username/e-scan.git)
+git clone [https://github.com//floringhitun223/escan.git](https://github.com//floringhitun223/escan.git)
 cd e-scan
 
 # Adaugă platforma și pornește demo-ul
