@@ -1,31 +1,39 @@
 # e-scan (DEMO) 🍏📱
 
-**e-scan** este o aplicație open source care scanează coduri de bare ale produselor alimentare și oferă informații despre ingrediente, aditivi și un scor orientativ de sănătate, folosind date din **OpenFoodFacts**.
+![Version](https://img.shields.io/badge/version-demo-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Platform](https://img.shields.io/badge/platform-Cordova-orange)
 
-⚠️ **Aceasta este o versiune DEMO.**  
-Aplicația nu este finisată și poate conține erori. **Versiunea FULL** va fi disponibilă în curând pe Google Play.  
+**e-scan** este o aplicație **open source** care scanează coduri de bare ale produselor alimentare și oferă informații despre ingrediente, aditivi și un **scor orientativ de sănătate**, folosind date din **OpenFoodFacts**.
+
+⚠️ **Versiune DEMO:** Aplicația nu este finisată și poate conține erori.  
+**Versiunea FULL** va fi lansată în curând pe Google Play.  
+
+📱 **[Descarcă DEMO APK](https://your-download-url.com)**
 
 ---
 
 ## 🌟 Caracteristici principale
 
-- Scanare rapidă a codurilor de bare  
-- Afișarea aditivilor și ingredientelor  
-- Scor de sănătate **orientativ**  
-- Contribuții din partea utilizatorilor: adaugă produse lipsă  
-- Bază de date **OpenFoodFacts**  
+- 🔹 Scanare rapidă a codurilor de bare  
+- 🔹 Afișarea aditivilor și ingredientelor  
+- 🔹 Scor de sănătate **orientativ**  
+- 🔹 Contribuții din partea utilizatorilor: adaugă produse lipsă  
+- 🔹 Bază de date **OpenFoodFacts**  
 
 ---
 
-## ⚠️ Detalii importante despre scorul de sănătate
+## ⚠️ Detalii scor de sănătate
 
-- Este **orientativ** și poate fi incomplet  
-- În lipsa detaliilor suficiente, **verifică eticheta produsului fizic**  
-- Scorul poate eșua sau să nu reflecte exact produsul real  
+> ⚡ Scorul afișat este **orientativ** și poate fi incomplet.  
+> Dacă sunt afișate prea puține detalii, **verifică eticheta produsului fizic**.
+
+- Poate eșua sau să nu reflecte exact produsul real  
+- Este bazat exclusiv pe datele OpenFoodFacts
 
 ---
 
-## 🧪 Limitări versiune DEMO
+## 🧪 Limitări DEMO
 
 - Funcții limitate și aplicație nefinisată  
 - Posibile erori sau comportamente neprevăzute  
@@ -40,35 +48,16 @@ Aplicația nu este finisată și poate conține erori. **Versiunea FULL** va fi 
 - Funcții suplimentare pentru analiză produse  
 - Performanță optimizată și actualizări regulate  
 
-📱 **Descărcare versiune DEMO:** [Descarcă aici](https://your-download-url.com)  
-
 ---
 
-## 🤝 Contribuții
+## ⚙️ Dezvoltare & Extindere cu Cordova
 
-Această aplicație este **open source** și poate fi modificată sau redistribuită conform licenței MIT.  
-Contribuțiile sunt binevenite! Puteți adăuga produse care nu există în baza de date sau îmbunătăți interfața și funcțiile aplicației.
+Aplicația e construită cu **Apache Cordova**, permițând rularea pe Android și iOS.  
+Următorii pași te ajută să continui proiectul:
 
----
-
-## 🛠️ Tehnologii folosite
-
-- Apache Cordova  
-- JavaScript, HTML, CSS  
-- Plugin Camera și Barcode Scanner  
-
----
-
-## ⚖️ Licență
-
-Această aplicație este **open source** și folosește **[MIT License](./LICENSE)**.  
-Datele sunt oferite fără garanții, iar aplicația nu înlocuiește sfatul unui medic sau nutriționist.
-
----
-
-## 🎨 Modern UI
-
-- Interfață curată, intuitivă și prietenoasă  
-- Elemente vizuale pentru aditivi și scorul de sănătate  
-- Navigare simplă și rapidă  
-- Feedback vizual instant la scanarea codurilor
+### 1️⃣ Setup proiect
+```bash
+npm install -g cordova
+git clone https://github.com/username/e-scan.git
+cd e-scan
+cordova platform add android
