@@ -15,7 +15,7 @@
 ## 🏗️ Stadiul Proiectului: Versiunea DEMO
 În prezent, **e-scan** se află în faza de testare publică. Această versiune este un prototip funcțional menit să demonstreze conceptul principal de scanare și analiză.
 
-* ⚠️ **Atenție:** Pot apărea erori (bug-uri) sau întărzieri în procesarea datelor.
+* ⚠️ **Atenție:** Pot apărea erori (bug-uri) sau întărzieri în procesarea datelor. Aplicația nu înlocuiește un specialist sau cadru medical, ci oferă rezultate pe baza datelor existente. Algoritmul nu este finalizat, ceea ce poate face că unele rezultate sa nu fie reale, de aceea va recomand verificare fizică a ambalajului. 
 * 📊 **Baza de date:** Momentan limitată la produsele disponibile prin API-ul OpenFoodFacts.
 * 🛠️ **Feedback:** Dacă întâmpini probleme, te rugăm să deschizi un [Issue](https://github.com/username/e-scan/issues).
 
