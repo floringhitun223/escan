@@ -9,7 +9,7 @@
 [![Version](https://img.shields.io/badge/version-0.5.2--beta-blue?style=for-the-badge)](https://github.com/username/e-scan)
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Cordova-orange?style=for-the-badge)](https://cordova.apache.org/)
-
+> **Imediat ce aplicația va fi publicată în versiunea FULL pe Play Store, va fi disponibil și codul sursă a acestuia. Creearea oricărui fork al aplicației este permisă, dar nu mai reprezintă răspunderea mea.**
 ---
 
 ## 🏗️ Stadiul Proiectului: Versiunea DEMO
