@@ -1,6 +1,6 @@
 # 🍏 e-scan — Nutriția ta, la o scanare distanță
 
-| <img src="LINK_POZA_1" width="250" alt="Scanare"> | <img src="LINK_POZA_2" width="250" alt="Ingrediente"> | <img src="LINK_POZA_3" width="250" alt="Rezultat"> |
+| <img src="[LINK_POZA_1](https://github.com/floringhitun223/escan/blob/main/Media/Captur%C4%83%20de%20ecran%202026-01-14%20204350.png?raw=true)" width="250" alt="Home-page"> | <img src="[LINK_POZA_2](https://github.com/floringhitun223/escan/blob/main/Media/Captur%C4%83%20de%20ecran%202026-01-14%20204923.png?raw=true)" width="250" alt="Additives"> | <img src="[LINK_POZA_3](https://github.com/floringhitun223/escan/blob/main/Media/Captur%C4%83%20de%20ecran%202026-01-14%20205003.png?raw=true)" width="250" alt="Settings"> |
 > **Transformă-ți telefonul într-un aliat pentru sănătate. Scanează, analizează și alege conștient.**
 
 [![Status: DEMO](https://img.shields.io/badge/status-DEMO-orange?style=for-the-badge)](https://your-download-link.com)
