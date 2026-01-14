@@ -40,7 +40,7 @@ Aplicația nu este finisată și poate conține erori. **Versiunea FULL** va fi 
 - Funcții suplimentare pentru analiză produse  
 - Performanță optimizată și actualizări regulate  
 
-📱 **Descărcare versiune DEMO:** [Download APK](https://your-download-url.com)  
+📱 **Descărcare versiune DEMO:** [Descarcă aici](https://your-download-url.com)  
 
 ---
 
