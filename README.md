@@ -3,10 +3,19 @@
 ![e-scan Banner](https://images.unsplash.com/photo-1510832198440-a52376950479?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80)
 > **Transformă-ți telefonul într-un aliat pentru sănătate. Scanează, analizează și alege conștient.**
 
-[![Version](https://img.shields.io/badge/version-1.0.0--stable-blue?style=for-the-badge)](https://github.com/username/e-scan)
+[![Status: DEMO](https://img.shields.io/badge/status-DEMO-orange?style=for-the-badge)](https://your-download-link.com)
+[![Version](https://img.shields.io/badge/version-0.5.2--beta-blue?style=for-the-badge)](https://github.com/username/e-scan)
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Cordova-orange?style=for-the-badge)](https://cordova.apache.org/)
-[![Database](https://img.shields.io/badge/Data-OpenFoodFacts-red?style=for-the-badge)](https://world.openfoodfacts.org/)
+
+---
+
+## 🏗️ Stadiul Proiectului: Versiunea DEMO
+În prezent, **e-scan** se află în faza de testare publică. Această versiune este un prototip funcțional menit să demonstreze conceptul principal de scanare și analiză.
+
+* ⚠️ **Atenție:** Pot apărea erori (bug-uri) sau întărzieri în procesarea datelor.
+* 📊 **Baza de date:** Momentan limitată la produsele disponibile prin API-ul OpenFoodFacts.
+* 🛠️ **Feedback:** Dacă întâmpini probleme, te rugăm să deschizi un [Issue](https://github.com/username/e-scan/issues).
 
 ---
 
@@ -15,55 +24,43 @@
 
 ---
 
-## 🚀 Caracteristici Principale
+## 🚀 Ce poți face în versiunea DEMO?
 
-### 🔍 Scanare Ultra-Rapidă
-Folosește motorul optimizat pentru a identifica instantaneu mii de produse alimentare din baza de date globală **OpenFoodFacts**.
+### 🔍 Scanare Rapidă
+Accesează camera telefonului și scanează codul de bare al oricărui produs alimentar ambalat.
 
 ### 🧪 Analiza Ingredientelor
-* **Identificare Aditivi:** Detectează automat "E-urile" și le clasifică în funcție de gradul de risc.
-* **Nutri-Score:** Afișează scorul oficial de sănătate (A-E) pentru o înțelegere rapidă.
-* **Alergeni:** Evidențiază substanțele care îți pot provoca reacții adverse.
+* **Identificare Aditivi:** Vizualizează lista de "E-uri" raportată de baza de date.
+* **Scor Nutritiv:** Vezi un scor orientativ de sănătate bazat pe calitatea nutrițională.
 
-### 👥 Contribuție Comunitară
-Produsul nu există în bază? Îl poți adăuga tu! Fă o poză etichetei și ajută mii de alți utilizatori să mănânce mai sănătos.
-
----
-
-## 🛠️ Detalii Tehnice
-
-Aplicația este construită pe o arhitectură hibridă, oferind performanță nativă prin **Apache Cordova**.
-
-### Tehnologii folosite:
-| Componentă | Tehnologie |
-| :--- | :--- |
-| **Frontend** | HTML5, CSS3 (Flexbox/Grid), JS ES6 |
-| **Framework** | Apache Cordova |
-| **Sursă Date** | API OpenFoodFacts |
-| **Scaner** | Cordova BarcodeScanner Plugin |
+### ➕ Contribuție
+Dacă un produs nu este găsit, aplicația te ghidează cum să îl adaugi în baza de date globală pentru a-i ajuta pe ceilalți.
 
 ---
 
-## ⚙️ Ghid de Instalare pentru Dezvoltatori
+## 🛣️ Drumul către Versiunea FULL
+Lucrăm intens pentru a lansa versiunea completă pe Google Play și App Store. Iată ce va include:
+- [ ] **Interfață UI/UX Completă:** Un design modern, fluid și mult mai intuitiv.
+- [ ] **Istoric Personalizat:** Jurnalul scanărilor tale pentru a urmări evoluția alegerilor alimentare.
+- [ ] **Offline Cache:** Posibilitatea de a vedea produsele scanate anterior fără conexiune la internet.
+- [ ] **Alerte Personalizate:** Notificări automate dacă un produs conține alergeni setați de tine (ex: gluten, lactoză).
 
-Dacă dorești să rulezi proiectul local sau să contribui la dezvoltarea lui, urmează pașii de mai jos:
+---
+
+## ⚙️ Ghid de Instalare (Dezvoltare & Testare)
+
+Dacă vrei să testezi versiunea demo pe dispozitivul tău:
 
 ### 1. Prerechizite
-* Node.js instalat
 * Cordova CLI: `npm install -g cordova`
-* Android SDK / Xcode (pentru build-uri native)
+* Android SDK instalat corect pe sistem.
 
-### 2. Configurare
+### 2. Configurare Rapidă
 ```bash
-# Clonează repository-ul
+# Clonează proiectul
 git clone [https://github.com/username/e-scan.git](https://github.com/username/e-scan.git)
-
-# Intră în folderul proiectului
 cd e-scan
 
-# Instalează platforma dorită
+# Adaugă platforma și pornește demo-ul
 cordova platform add android
-# cordova platform add ios
-
-# Build și Run
 cordova run android
